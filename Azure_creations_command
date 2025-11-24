@@ -1,0 +1,5 @@
+az ad sp create-for-rbac `
+  --name "github-deployment" `
+  --role contributor `
+  --scopes /subscriptions/24a04bae-5d12-44e1-923e-bf90bfe7be97 `
+  --sdk-auth
